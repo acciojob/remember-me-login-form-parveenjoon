@@ -1,1 +1,37 @@
 /*  your css code here. If applicable */
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+form div {
+  margin-bottom: 10px;
+}
+
+label {
+  display: inline-block;
+  width: 100px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="checkbox"] {
+  width: 200px;
+  padding: 5px;
+  font-size: 16px;
+}
+
+input[type="submit"],
+button {
+  padding: 8px 16px;
+  cursor: pointer;
+}
